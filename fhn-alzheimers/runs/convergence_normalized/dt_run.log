@@ -1,0 +1,81 @@
+
+Δt CONVERGENCE CHECK
+  Δt values: (0.02, 0.01, 0.005)
+  N_TRIALS per (Δt, stage): 3
+Computing edge-betweenness on healthy graph (one-shot)...
+  done in 1.1s
+  |E|_0 = 4000
+
+=== Δt = 0.02  ===
+  Stage  1/10: |E|=4000  R_g=0.9677  R_c=0.9677  (avg 1.8s/trial)
+  Stage  2/10: |E|=3622  R_g=0.9490  R_c=0.9490  (avg 1.8s/trial)
+  Stage  3/10: |E|=3244  R_g=0.9404  R_c=0.9420  (avg 1.8s/trial)
+  Stage  4/10: |E|=2867  R_g=0.9294  R_c=0.9348  (avg 1.8s/trial)
+  Stage  5/10: |E|=2489  R_g=0.9137  R_c=0.9369  (avg 2.0s/trial)
+  Stage  6/10: |E|=2111  R_g=0.8791  R_c=0.9334  (avg 2.4s/trial)
+  Stage  7/10: |E|=1733  R_g=0.8348  R_c=0.9381  (avg 3.0s/trial)
+  Stage  8/10: |E|=1356  R_g=0.7717  R_c=0.9427  (avg 3.9s/trial)
+  Stage  9/10: |E|= 978  R_g=0.6533  R_c=0.9542  (avg 5.3s/trial)
+  Stage 10/10: |E|= 600  R_g=0.5052  R_c=0.9717  (avg 7.3s/trial)
+
+=== Δt = 0.01 (canonical) ===
+  Stage  1/10: |E|=4000  R_g=0.9673  R_c=0.9673  (avg 3.7s/trial)
+  Stage  2/10: |E|=3622  R_g=0.9446  R_c=0.9446  (avg 3.6s/trial)
+  Stage  3/10: |E|=3244  R_g=0.9400  R_c=0.9413  (avg 3.6s/trial)
+  Stage  4/10: |E|=2867  R_g=0.9347  R_c=0.9402  (avg 3.6s/trial)
+  Stage  5/10: |E|=2489  R_g=0.9151  R_c=0.9377  (avg 4.1s/trial)
+  Stage  6/10: |E|=2111  R_g=0.8785  R_c=0.9347  (avg 4.8s/trial)
+  Stage  7/10: |E|=1733  R_g=0.8215  R_c=0.9252  (avg 6.0s/trial)
+  Stage  8/10: |E|=1356  R_g=0.7712  R_c=0.9481  (avg 7.9s/trial)
+  Stage  9/10: |E|= 978  R_g=0.6425  R_c=0.9578  (avg 10.6s/trial)
+  Stage 10/10: |E|= 600  R_g=0.5170  R_c=0.9720  (avg 14.8s/trial)
+
+=== Δt = 0.005  ===
+  Stage  1/10: |E|=4000  R_g=0.9683  R_c=0.9683  (avg 7.4s/trial)
+  Stage  2/10: |E|=3622  R_g=0.9472  R_c=0.9472  (avg 7.3s/trial)
+  Stage  3/10: |E|=3244  R_g=0.9409  R_c=0.9425  (avg 7.2s/trial)
+  Stage  4/10: |E|=2867  R_g=0.9276  R_c=0.9321  (avg 7.2s/trial)
+  Stage  5/10: |E|=2489  R_g=0.9058  R_c=0.9284  (avg 8.2s/trial)
+  Stage  6/10: |E|=2111  R_g=0.8798  R_c=0.9322  (avg 9.7s/trial)
+  Stage  7/10: |E|=1733  R_g=0.8309  R_c=0.9361  (avg 12.3s/trial)
+  Stage  8/10: |E|=1356  R_g=0.7591  R_c=0.9471  (avg 15.9s/trial)
+  Stage  9/10: |E|= 978  R_g=0.6558  R_c=0.9586  (avg 21.4s/trial)
+  Stage 10/10: |E|= 600  R_g=0.5075  R_c=0.9716  (avg 29.8s/trial)
+
+Total wall-time: 11.0 min
+
+--- Stage-by-stage R_global (mean across trials) ---
+Stage | Δt=0.02 | Δt=0.01 | Δt=0.005
+------------------------------------
+   1  | 0.9677 | 0.9673 | 0.9683
+   2  | 0.9490 | 0.9446 | 0.9472
+   3  | 0.9404 | 0.9400 | 0.9409
+   4  | 0.9294 | 0.9347 | 0.9276
+   5  | 0.9137 | 0.9151 | 0.9058
+   6  | 0.8791 | 0.8785 | 0.8798
+   7  | 0.8348 | 0.8215 | 0.8309
+   8  | 0.7717 | 0.7712 | 0.7591
+   9  | 0.6533 | 0.6425 | 0.6558
+  10  | 0.5052 | 0.5170 | 0.5075
+
+--- Stage-by-stage R_component (mean across trials) ---
+Stage | Δt=0.02 | Δt=0.01 | Δt=0.005
+------------------------------------
+   1  | 0.9677 | 0.9673 | 0.9683
+   2  | 0.9490 | 0.9446 | 0.9472
+   3  | 0.9420 | 0.9413 | 0.9425
+   4  | 0.9348 | 0.9402 | 0.9321
+   5  | 0.9369 | 0.9377 | 0.9284
+   6  | 0.9334 | 0.9347 | 0.9322
+   7  | 0.9381 | 0.9252 | 0.9361
+   8  | 0.9427 | 0.9481 | 0.9471
+   9  | 0.9542 | 0.9578 | 0.9586
+  10  | 0.9717 | 0.9720 | 0.9716
+
+--- Max |Δ R| vs canonical Δt=0.01 ---
+  Δt =  0.02: max |ΔR_global|    = 0.0133  @ stage 7
+            max |ΔR_component| = 0.0129  @ stage 7
+  Δt = 0.005: max |ΔR_global|    = 0.0133  @ stage 9
+            max |ΔR_component| = 0.0110  @ stage 7
+
+✓ All outputs in: /Users/anni/Desktop/Tinkering Lab/FHN_new/NewCodes/runs/convergence_normalized/alzheimers_dt_convergence

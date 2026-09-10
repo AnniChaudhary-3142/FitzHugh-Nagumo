@@ -1,0 +1,69 @@
+{
+  "config": {
+    "N": 1000,
+    "k_nbr": 8,
+    "p_rewire": 0.1,
+    "a": 0.65,
+    "eps": 0.06,
+    "I_ext": 0.3,
+    "b": 0.8,
+    "K": 0.2,
+    "a_spread": 0.0,
+    "a_seed": 0,
+    "eps_spread": 0.0,
+    "eps_seed": 0,
+    "T": 400.0,
+    "burn_in": 100.0,
+    "dt": 0.01,
+    "K_ramp_time": 20.0,
+    "sigma": 0.05,
+    "n_stages": 10,
+    "ablation_max": 0.85,
+    "ablation_strategy": "betweenness",
+    "recompute_betweenness": false,
+    "n_trials": 3,
+    "raster_stages": [
+      1,
+      5,
+      10
+    ],
+    "save_trajectories_at": [
+      1,
+      3,
+      5,
+      7,
+      10
+    ],
+    "trajectory_outdir": "alzheimers_results/trajectories_canonical",
+    "master_seed": 20260529
+  },
+  "n_networks": 5,
+  "stats_R_global": {
+    "n_networks": 5,
+    "stage1_mean": 0.9547633283481003,
+    "stage1_std": 0.0009396490659084374,
+    "stageN_mean": 0.5201448026755936,
+    "stageN_std": 0.007185060369173966,
+    "delta_mean": -0.4346185256725068,
+    "delta_std": 0.007795044799807978,
+    "t_stat": -124.67363467986775,
+    "p_t": 2.4823700305219142e-08,
+    "w_stat": 0.0,
+    "p_w": 0.0625,
+    "cohens_d": -55.75574442923191
+  },
+  "stats_R_component": {
+    "n_networks": 5,
+    "stage1_mean": 0.9547633283481003,
+    "stage1_std": 0.0009396490659084374,
+    "stageN_mean": 0.9607321680717181,
+    "stageN_std": 0.0008190491281890423,
+    "delta_mean": 0.005968839723617836,
+    "delta_std": 0.0013835001535107648,
+    "t_stat": 9.647076174832307,
+    "p_t": 0.0006457754769703835,
+    "w_stat": 0.0,
+    "p_w": 0.0625,
+    "cohens_d": 4.314303622208737
+  }
+}

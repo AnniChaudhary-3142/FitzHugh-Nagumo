@@ -1,0 +1,24 @@
+{
+  "dt_values": [
+    0.02,
+    0.01,
+    0.005
+  ],
+  "canonical_dt": 0.01,
+  "n_trials": 3,
+  "net_seed": 676407802,
+  "deviations": {
+    "0.02": {
+      "max_abs_R_global": 0.01329208558503947,
+      "max_abs_R_component": 0.012892428179062665,
+      "stage_max_R_global": 7,
+      "stage_max_R_component": 7
+    },
+    "0.005": {
+      "max_abs_R_global": 0.013297595032386367,
+      "max_abs_R_component": 0.01096108724516398,
+      "stage_max_R_global": 9,
+      "stage_max_R_component": 7
+    }
+  }
+}

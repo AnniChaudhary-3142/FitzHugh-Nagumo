@@ -1,0 +1,384 @@
+
+======================================================================
+MULTI-NETWORK ROBUSTNESS — betweenness ablation
+  5 networks  ×  10 stages  ×  3 trials   (N=1000)
+  K=0.5,  a=0.65,  ablation_max=0.85
+  master_seed=20260529
+======================================================================
+
+
+######################################################################
+#  NETWORK 1/5    (master_seed=676407802)
+######################################################################
+
+================================================================
+Alzheimer's FHN network — disease progression by ablation
+================================================================
+  N=1000  K=0.5  a=0.65  ε=0.06  I=0.3
+  stages=10  trials=3  ablation_max=0.85  strategy=betweenness
+  master_seed=676407802
+
+Building healthy Watts-Strogatz network ...
+  ⟨k⟩=8.00  |E|=4000
+Computing edge-betweenness on healthy graph (one-shot) ...
+  done in 1.2s
+
+Stage  1/10: ablated 0%  |E|=4000  CC=1  largest=1000  clust=0.477  eff=0.214  mod=0.711
+  trial 1/3: R_glob=0.9749  R_comp=0.9749  (4.1s)
+  trial 2/3: R_glob=0.9747  R_comp=0.9747  (3.8s)
+  trial 3/3: R_glob=0.9754  R_comp=0.9754  (3.8s)
+
+Stage  2/10: ablated 9%  |E|=3622  CC=1  largest=1000  clust=0.572  eff=0.086  mod=0.774
+  trial 1/3: R_glob=0.9524  R_comp=0.9524  (3.8s)
+  trial 2/3: R_glob=0.9545  R_comp=0.9545  (3.8s)
+  trial 3/3: R_glob=0.9550  R_comp=0.9550  (3.8s)
+
+Stage  3/10: ablated 19%  |E|=3244  CC=2  largest=999  clust=0.597  eff=0.041  mod=0.859
+  trial 1/3: R_glob=0.9452  R_comp=0.9464  (3.9s)
+  trial 2/3: R_glob=0.9514  R_comp=0.9514  (3.8s)
+  trial 3/3: R_glob=0.9357  R_comp=0.9360  (3.8s)
+
+Stage  4/10: ablated 28%  |E|=2867  CC=4  largest=997  clust=0.602  eff=0.036  mod=0.897
+  trial 1/3: R_glob=0.9368  R_comp=0.9389  (3.8s)
+  trial 2/3: R_glob=0.9389  R_comp=0.9393  (3.8s)
+  trial 3/3: R_glob=0.9516  R_comp=0.9538  (3.8s)
+
+Stage  5/10: ablated 38%  |E|=2489  CC=18  largest=411  clust=0.581  eff=0.024  mod=0.930
+  trial 1/3: R_glob=0.9352  R_comp=0.9485  (4.4s)
+  trial 2/3: R_glob=0.9176  R_comp=0.9332  (4.4s)
+  trial 3/3: R_glob=0.9321  R_comp=0.9468  (4.3s)
+
+Stage  6/10: ablated 47%  |E|=2111  CC=45  largest=404  clust=0.540  eff=0.020  mod=0.942
+  trial 1/3: R_glob=0.9055  R_comp=0.9446  (4.8s)
+  trial 2/3: R_glob=0.9066  R_comp=0.9395  (4.8s)
+  trial 3/3: R_glob=0.8977  R_comp=0.9391  (4.8s)
+
+Stage  7/10: ablated 57%  |E|=1733  CC=117  largest=181  clust=0.491  eff=0.012  mod=0.958
+  trial 1/3: R_glob=0.8174  R_comp=0.9488  (6.7s)
+  trial 2/3: R_glob=0.8536  R_comp=0.9518  (6.6s)
+  trial 3/3: R_glob=0.8635  R_comp=0.9539  (6.7s)
+
+Stage  8/10: ablated 66%  |E|=1356  CC=211  largest=65  clust=0.404  eff=0.008  mod=0.965
+  trial 1/3: R_glob=0.7728  R_comp=0.9515  (8.5s)
+  trial 2/3: R_glob=0.7687  R_comp=0.9541  (8.4s)
+  trial 3/3: R_glob=0.7773  R_comp=0.9593  (8.4s)
+
+Stage  9/10: ablated 76%  |E|=978  CC=357  largest=34  clust=0.319  eff=0.004  mod=0.975
+  trial 1/3: R_glob=0.6228  R_comp=0.9703  (11.5s)
+  trial 2/3: R_glob=0.6608  R_comp=0.9658  (11.4s)
+  trial 3/3: R_glob=0.6483  R_comp=0.9644  (11.5s)
+
+Stage 10/10: ablated 85%  |E|=600  CC=549  largest=20  clust=0.194  eff=0.002  mod=0.981
+  trial 1/3: R_glob=0.4694  R_comp=0.9800  (14.6s)
+  trial 2/3: R_glob=0.5183  R_comp=0.9787  (14.7s)
+  trial 3/3: R_glob=0.5044  R_comp=0.9778  (14.6s)
+
+Total wall-time: 251.4s
+
+
+######################################################################
+#  NETWORK 2/5    (master_seed=1960940411)
+######################################################################
+
+================================================================
+Alzheimer's FHN network — disease progression by ablation
+================================================================
+  N=1000  K=0.5  a=0.65  ε=0.06  I=0.3
+  stages=10  trials=3  ablation_max=0.85  strategy=betweenness
+  master_seed=1960940411
+
+Building healthy Watts-Strogatz network ...
+  ⟨k⟩=8.00  |E|=4000
+Computing edge-betweenness on healthy graph (one-shot) ...
+  done in 1.2s
+
+Stage  1/10: ablated 0%  |E|=4000  CC=1  largest=1000  clust=0.468  eff=0.217  mod=0.686
+  trial 1/3: R_glob=0.9757  R_comp=0.9757  (3.8s)
+  trial 2/3: R_glob=0.9756  R_comp=0.9756  (3.8s)
+  trial 3/3: R_glob=0.9748  R_comp=0.9748  (3.8s)
+
+Stage  2/10: ablated 9%  |E|=3622  CC=1  largest=1000  clust=0.561  eff=0.116  mod=0.776
+  trial 1/3: R_glob=0.9628  R_comp=0.9628  (3.8s)
+  trial 2/3: R_glob=0.9584  R_comp=0.9584  (3.8s)
+  trial 3/3: R_glob=0.9589  R_comp=0.9589  (3.8s)
+
+Stage  3/10: ablated 19%  |E|=3244  CC=4  largest=997  clust=0.599  eff=0.040  mod=0.847
+  trial 1/3: R_glob=0.9430  R_comp=0.9449  (3.8s)
+  trial 2/3: R_glob=0.9442  R_comp=0.9459  (3.8s)
+  trial 3/3: R_glob=0.9354  R_comp=0.9383  (3.8s)
+
+Stage  4/10: ablated 28%  |E|=2867  CC=11  largest=816  clust=0.604  eff=0.032  mod=0.887
+  trial 1/3: R_glob=0.9398  R_comp=0.9481  (4.1s)
+  trial 2/3: R_glob=0.9361  R_comp=0.9424  (4.0s)
+  trial 3/3: R_glob=0.9350  R_comp=0.9426  (4.1s)
+
+Stage  5/10: ablated 38%  |E|=2489  CC=33  largest=410  clust=0.580  eff=0.023  mod=0.927
+  trial 1/3: R_glob=0.9043  R_comp=0.9329  (4.6s)
+  trial 2/3: R_glob=0.9102  R_comp=0.9478  (4.4s)
+  trial 3/3: R_glob=0.9100  R_comp=0.9440  (4.5s)
+
+Stage  6/10: ablated 47%  |E|=2111  CC=75  largest=393  clust=0.542  eff=0.018  mod=0.943
+  trial 1/3: R_glob=0.8557  R_comp=0.9283  (5.5s)
+  trial 2/3: R_glob=0.8634  R_comp=0.9311  (5.5s)
+  trial 3/3: R_glob=0.8628  R_comp=0.9516  (5.5s)
+
+Stage  7/10: ablated 57%  |E|=1733  CC=138  largest=158  clust=0.474  eff=0.011  mod=0.955
+  trial 1/3: R_glob=0.8273  R_comp=0.9568  (7.0s)
+  trial 2/3: R_glob=0.8352  R_comp=0.9519  (7.0s)
+  trial 3/3: R_glob=0.8433  R_comp=0.9553  (6.9s)
+
+Stage  8/10: ablated 66%  |E|=1356  CC=231  largest=66  clust=0.404  eff=0.007  mod=0.965
+  trial 1/3: R_glob=0.7003  R_comp=0.9545  (9.3s)
+  trial 2/3: R_glob=0.7351  R_comp=0.9545  (9.4s)
+  trial 3/3: R_glob=0.7521  R_comp=0.9602  (9.3s)
+
+Stage  9/10: ablated 76%  |E|=978  CC=367  largest=41  clust=0.297  eff=0.004  mod=0.975
+  trial 1/3: R_glob=0.6470  R_comp=0.9672  (11.6s)
+  trial 2/3: R_glob=0.6402  R_comp=0.9574  (11.5s)
+  trial 3/3: R_glob=0.6473  R_comp=0.9684  (11.5s)
+
+Stage 10/10: ablated 85%  |E|=600  CC=568  largest=14  clust=0.204  eff=0.002  mod=0.980
+  trial 1/3: R_glob=0.5120  R_comp=0.9782  (13.6s)
+  trial 2/3: R_glob=0.4863  R_comp=0.9779  (13.5s)
+  trial 3/3: R_glob=0.5330  R_comp=0.9794  (13.5s)
+
+Total wall-time: 253.9s
+
+
+######################################################################
+#  NETWORK 3/5    (master_seed=420919611)
+######################################################################
+
+================================================================
+Alzheimer's FHN network — disease progression by ablation
+================================================================
+  N=1000  K=0.5  a=0.65  ε=0.06  I=0.3
+  stages=10  trials=3  ablation_max=0.85  strategy=betweenness
+  master_seed=420919611
+
+Building healthy Watts-Strogatz network ...
+  ⟨k⟩=8.00  |E|=4000
+Computing edge-betweenness on healthy graph (one-shot) ...
+  done in 1.2s
+
+Stage  1/10: ablated 0%  |E|=4000  CC=1  largest=1000  clust=0.476  eff=0.215  mod=0.705
+  trial 1/3: R_glob=0.9762  R_comp=0.9762  (3.8s)
+  trial 2/3: R_glob=0.9751  R_comp=0.9751  (3.8s)
+  trial 3/3: R_glob=0.9763  R_comp=0.9763  (3.8s)
+
+Stage  2/10: ablated 9%  |E|=3622  CC=1  largest=1000  clust=0.570  eff=0.106  mod=0.767
+  trial 1/3: R_glob=0.9546  R_comp=0.9546  (3.8s)
+  trial 2/3: R_glob=0.9445  R_comp=0.9445  (3.8s)
+  trial 3/3: R_glob=0.9602  R_comp=0.9602  (3.8s)
+
+Stage  3/10: ablated 19%  |E|=3244  CC=4  largest=997  clust=0.596  eff=0.040  mod=0.849
+  trial 1/3: R_glob=0.9385  R_comp=0.9411  (3.8s)
+  trial 2/3: R_glob=0.9414  R_comp=0.9428  (3.7s)
+  trial 3/3: R_glob=0.9461  R_comp=0.9473  (3.8s)
+
+Stage  4/10: ablated 28%  |E|=2867  CC=12  largest=888  clust=0.603  eff=0.033  mod=0.893
+  trial 1/3: R_glob=0.9292  R_comp=0.9364  (3.9s)
+  trial 2/3: R_glob=0.9277  R_comp=0.9342  (3.9s)
+  trial 3/3: R_glob=0.9317  R_comp=0.9390  (3.9s)
+
+Stage  5/10: ablated 38%  |E|=2489  CC=32  largest=459  clust=0.596  eff=0.025  mod=0.936
+  trial 1/3: R_glob=0.9188  R_comp=0.9412  (4.6s)
+  trial 2/3: R_glob=0.9246  R_comp=0.9539  (4.6s)
+  trial 3/3: R_glob=0.9201  R_comp=0.9491  (4.6s)
+
+Stage  6/10: ablated 47%  |E|=2111  CC=72  largest=307  clust=0.560  eff=0.018  mod=0.947
+  trial 1/3: R_glob=0.8873  R_comp=0.9450  (5.6s)
+  trial 2/3: R_glob=0.8788  R_comp=0.9399  (5.6s)
+  trial 3/3: R_glob=0.8793  R_comp=0.9354  (5.7s)
+
+Stage  7/10: ablated 57%  |E|=1733  CC=139  largest=98  clust=0.502  eff=0.011  mod=0.957
+  trial 1/3: R_glob=0.8132  R_comp=0.9534  (7.2s)
+  trial 2/3: R_glob=0.8188  R_comp=0.9522  (7.2s)
+  trial 3/3: R_glob=0.8186  R_comp=0.9566  (7.2s)
+
+Stage  8/10: ablated 66%  |E|=1356  CC=228  largest=70  clust=0.421  eff=0.008  mod=0.964
+  trial 1/3: R_glob=0.7859  R_comp=0.9551  (8.3s)
+  trial 2/3: R_glob=0.7552  R_comp=0.9591  (8.4s)
+  trial 3/3: R_glob=0.7475  R_comp=0.9503  (8.4s)
+
+Stage  9/10: ablated 76%  |E|=978  CC=362  largest=49  clust=0.318  eff=0.004  mod=0.972
+  trial 1/3: R_glob=0.6347  R_comp=0.9627  (11.2s)
+  trial 2/3: R_glob=0.6034  R_comp=0.9657  (11.1s)
+  trial 3/3: R_glob=0.6453  R_comp=0.9660  (11.2s)
+
+Stage 10/10: ablated 85%  |E|=600  CC=551  largest=20  clust=0.203  eff=0.002  mod=0.982
+  trial 1/3: R_glob=0.5016  R_comp=0.9788  (14.9s)
+  trial 2/3: R_glob=0.5129  R_comp=0.9799  (14.7s)
+  trial 3/3: R_glob=0.4576  R_comp=0.9787  (15.0s)
+
+Total wall-time: 254.7s
+
+
+######################################################################
+#  NETWORK 4/5    (master_seed=115042767)
+######################################################################
+
+================================================================
+Alzheimer's FHN network — disease progression by ablation
+================================================================
+  N=1000  K=0.5  a=0.65  ε=0.06  I=0.3
+  stages=10  trials=3  ablation_max=0.85  strategy=betweenness
+  master_seed=115042767
+
+Building healthy Watts-Strogatz network ...
+  ⟨k⟩=8.00  |E|=4000
+Computing edge-betweenness on healthy graph (one-shot) ...
+  done in 1.2s
+
+Stage  1/10: ablated 0%  |E|=4000  CC=1  largest=1000  clust=0.470  eff=0.217  mod=0.697
+  trial 1/3: R_glob=0.9762  R_comp=0.9762  (3.8s)
+  trial 2/3: R_glob=0.9759  R_comp=0.9759  (3.8s)
+  trial 3/3: R_glob=0.9756  R_comp=0.9756  (4.9s)
+
+Stage  2/10: ablated 9%  |E|=3622  CC=1  largest=1000  clust=0.563  eff=0.108  mod=0.782
+  trial 1/3: R_glob=0.9496  R_comp=0.9496  (7.6s)
+  trial 2/3: R_glob=0.9620  R_comp=0.9620  (3.9s)
+  trial 3/3: R_glob=0.9551  R_comp=0.9551  (3.9s)
+
+Stage  3/10: ablated 19%  |E|=3244  CC=2  largest=999  clust=0.591  eff=0.040  mod=0.841
+  trial 1/3: R_glob=0.9448  R_comp=0.9451  (3.9s)
+  trial 2/3: R_glob=0.9431  R_comp=0.9437  (3.9s)
+  trial 3/3: R_glob=0.9391  R_comp=0.9392  (3.8s)
+
+Stage  4/10: ablated 28%  |E|=2867  CC=9  largest=663  clust=0.594  eff=0.031  mod=0.907
+  trial 1/3: R_glob=0.9435  R_comp=0.9464  (901.9s)
+  trial 2/3: R_glob=0.9384  R_comp=0.9462  (4.6s)
+  trial 3/3: R_glob=0.9304  R_comp=0.9376  (6.9s)
+
+Stage  5/10: ablated 38%  |E|=2489  CC=28  largest=606  clust=0.575  eff=0.026  mod=0.939
+  trial 1/3: R_glob=0.9130  R_comp=0.9357  (6.6s)
+  trial 2/3: R_glob=0.9162  R_comp=0.9385  (6.6s)
+  trial 3/3: R_glob=0.9106  R_comp=0.9310  (6.7s)
+
+Stage  6/10: ablated 47%  |E|=2111  CC=69  largest=223  clust=0.547  eff=0.016  mod=0.955
+  trial 1/3: R_glob=0.8832  R_comp=0.9534  (8.7s)
+  trial 2/3: R_glob=0.8817  R_comp=0.9402  (8.8s)
+  trial 3/3: R_glob=0.8806  R_comp=0.9330  (8.6s)
+
+Stage  7/10: ablated 57%  |E|=1733  CC=136  largest=76  clust=0.497  eff=0.010  mod=0.963
+  trial 1/3: R_glob=0.8369  R_comp=0.9482  (11.4s)
+  trial 2/3: R_glob=0.8528  R_comp=0.9550  (11.5s)
+  trial 3/3: R_glob=0.8073  R_comp=0.9461  (11.5s)
+
+Stage  8/10: ablated 66%  |E|=1356  CC=235  largest=54  clust=0.410  eff=0.007  mod=0.971
+  trial 1/3: R_glob=0.7623  R_comp=0.9641  (14.2s)
+  trial 2/3: R_glob=0.7555  R_comp=0.9655  (14.4s)
+  trial 3/3: R_glob=0.7282  R_comp=0.9593  (14.2s)
+
+Stage  9/10: ablated 76%  |E|=978  CC=372  largest=36  clust=0.317  eff=0.004  mod=0.978
+  trial 1/3: R_glob=0.6542  R_comp=0.9678  (900.2s)
+  trial 2/3: R_glob=0.6727  R_comp=0.9727  (19.9s)
+  trial 3/3: R_glob=0.6333  R_comp=0.9702  (19.4s)
+
+Stage 10/10: ablated 85%  |E|=600  CC=558  largest=15  clust=0.202  eff=0.002  mod=0.983
+  trial 1/3: R_glob=0.4910  R_comp=0.9784  (25.1s)
+  trial 2/3: R_glob=0.5190  R_comp=0.9792  (25.4s)
+  trial 3/3: R_glob=0.4928  R_comp=0.9799  (26.6s)
+
+Total wall-time: 2163.6s
+
+
+######################################################################
+#  NETWORK 5/5    (master_seed=4056917832)
+######################################################################
+
+================================================================
+Alzheimer's FHN network — disease progression by ablation
+================================================================
+  N=1000  K=0.5  a=0.65  ε=0.06  I=0.3
+  stages=10  trials=3  ablation_max=0.85  strategy=betweenness
+  master_seed=4056917832
+
+Building healthy Watts-Strogatz network ...
+  ⟨k⟩=8.00  |E|=4000
+Computing edge-betweenness on healthy graph (one-shot) ...
+  done in 2.1s
+
+Stage  1/10: ablated 0%  |E|=4000  CC=1  largest=1000  clust=0.474  eff=0.217  mod=0.671
+  trial 1/3: R_glob=0.9760  R_comp=0.9760  (6.5s)
+  trial 2/3: R_glob=0.9770  R_comp=0.9770  (6.5s)
+  trial 3/3: R_glob=0.9760  R_comp=0.9760  (6.6s)
+
+Stage  2/10: ablated 9%  |E|=3622  CC=1  largest=1000  clust=0.569  eff=0.105  mod=0.751
+  trial 1/3: R_glob=0.9554  R_comp=0.9554  (6.6s)
+  trial 2/3: R_glob=0.9595  R_comp=0.9595  (6.5s)
+  trial 3/3: R_glob=0.9604  R_comp=0.9604  (6.4s)
+
+Stage  3/10: ablated 19%  |E|=3244  CC=2  largest=999  clust=0.602  eff=0.040  mod=0.809
+  trial 1/3: R_glob=0.9392  R_comp=0.9396  (6.4s)
+  trial 2/3: R_glob=0.9359  R_comp=0.9364  (6.5s)
+  trial 3/3: R_glob=0.9328  R_comp=0.9339  (6.6s)
+
+Stage  4/10: ablated 28%  |E|=2867  CC=10  largest=991  clust=0.595  eff=0.036  mod=0.888
+  trial 1/3: R_glob=0.9368  R_comp=0.9431  (6.6s)
+  trial 2/3: R_glob=0.9404  R_comp=0.9468  (6.6s)
+  trial 3/3: R_glob=0.9410  R_comp=0.9485  (6.5s)
+
+Stage  5/10: ablated 38%  |E|=2489  CC=26  largest=319  clust=0.581  eff=0.024  mod=0.935
+  trial 1/3: R_glob=0.9046  R_comp=0.9222  (7.5s)
+  trial 2/3: R_glob=0.9323  R_comp=0.9493  (13.0s)
+  trial 3/3: R_glob=0.9324  R_comp=0.9485  (918.5s)
+
+Stage  6/10: ablated 47%  |E|=2111  CC=64  largest=172  clust=0.554  eff=0.017  mod=0.948
+  trial 1/3: R_glob=0.8914  R_comp=0.9375  (8.7s)
+  trial 2/3: R_glob=0.8905  R_comp=0.9490  (8.9s)
+  trial 3/3: R_glob=0.8890  R_comp=0.9368  (8.7s)
+
+Stage  7/10: ablated 57%  |E|=1733  CC=119  largest=96  clust=0.488  eff=0.011  mod=0.961
+  trial 1/3: R_glob=0.8656  R_comp=0.9551  (11.2s)
+  trial 2/3: R_glob=0.8522  R_comp=0.9572  (11.4s)
+  trial 3/3: R_glob=0.8476  R_comp=0.9513  (11.3s)
+
+Stage  8/10: ablated 66%  |E|=1356  CC=225  largest=53  clust=0.411  eff=0.007  mod=0.969
+  trial 1/3: R_glob=0.7408  R_comp=0.9547  (14.8s)
+  trial 2/3: R_glob=0.7663  R_comp=0.9610  (388.4s)
+  trial 3/3: R_glob=0.7663  R_comp=0.9550  (14.7s)
+
+Stage  9/10: ablated 76%  |E|=978  CC=349  largest=30  clust=0.314  eff=0.004  mod=0.978
+  trial 1/3: R_glob=0.6263  R_comp=0.9674  (20.9s)
+  trial 2/3: R_glob=0.6417  R_comp=0.9691  (21.1s)
+  trial 3/3: R_glob=0.5923  R_comp=0.9723  (158.4s)
+
+Stage 10/10: ablated 85%  |E|=600  CC=538  largest=23  clust=0.190  eff=0.002  mod=0.981
+  trial 1/3: R_glob=0.4864  R_comp=0.9792  (24.4s)
+  trial 2/3: R_glob=0.4865  R_comp=0.9783  (24.8s)
+  trial 3/3: R_glob=0.4810  R_comp=0.9769  (22.9s)
+
+Total wall-time: 3706.8s
+
+
+>>> Total wall-time: 110.6 min
+
+======================================================================
+PAIRED STATISTICAL TESTS  (Stage 1 vs Stage 10)
+  Each network contributes one paired observation.
+======================================================================
+
+R_global:
+  Stage 1   : 0.9757 ± 0.0005   (n=5 networks)
+  Stage 10  : 0.4968 ± 0.0099
+  Δ (paired): -0.4789 ± 0.0102
+  Paired t  : t = -105.187,  p = 4.898e-08
+  Wilcoxon  : W = 0.0,  p = 0.0625
+  Cohen's d : -47.041   (large effect)
+
+R_component:
+  Stage 1   : 0.9757 ± 0.0005   (n=5 networks)
+  Stage 10  : 0.9788 ± 0.0004
+  Δ (paired): +0.0031 ± 0.0007
+  Paired t  : t = +9.240,  p = 0.0007627
+  Wilcoxon  : W = 0.0,  p = 0.0625
+  Cohen's d : +4.132   (large effect)
+
+======================================================================
+PAPER-READY SUMMARY SENTENCE
+======================================================================
+
+Across n=5 independent Watts-Strogatz realizations, R_global decreased significantly from healthy (Stage 1: 0.976 ± 0.000) to advanced ablation (Stage 10: 0.497 ± 0.010); paired t = -105.19, p = 4.90e-08, Cohen's d = -47.04. R_component changed by only Δ = +0.003, confirming that desynchronization is structural rather than dynamical.
+
+✓ All outputs in: /Users/anni/Desktop/Tinkering Lab/FHN_new/NewCodes/runs/K050/out

@@ -1,0 +1,21 @@
+{
+  "config": {
+    "K": 0.35,
+    "sigma": 0.05,
+    "a": 0.65,
+    "N": 1000,
+    "master_seed": 20260529,
+    "n_fractions": 30,
+    "n_networks": 2
+  },
+  "f_c_LCC_half": 0.32095490716180375,
+  "f_c_steepest_drop": 0.2793103448275862,
+  "f_min": 0.0,
+  "f_max": 0.9,
+  "R_global_at_f0": 0.968107504462147,
+  "R_global_at_fmax": 0.41737415743527817,
+  "R_component_at_f0": 0.968107504462147,
+  "R_component_at_fmax": 0.9812784177545029,
+  "LCC_at_f0": 1000.0,
+  "LCC_at_fmax": 12.5
+}

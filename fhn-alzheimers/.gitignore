@@ -1,0 +1,39 @@
+# ---- large regenerable simulation output -------------------------------
+# Full (v, w) trajectories: ~250 MB each, 42 files, ~10.7 GB total.
+# GitHub rejects files over 100 MB. Regenerate with fhn_alzheimers.py
+# (save_trajectories_at in Config) if you need them.
+**/trajectories_canonical/
+*.npz.large
+
+# The T=6400 window-convergence raw traces (~149 MB). The summary JSON
+# alongside it carries every number the analysis reports.
+runs/convergence_normalized/alzheimers_window_convergence_T6400/window_convergence_data.npz
+
+# ---- python -------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# ---- scratch figure previews --------------------------------------------
+replot_preview/
+
+# ---- os -----------------------------------------------------------------
+.DS_Store
+Thumbs.db
+
+# Superseded driver kept for provenance, not meant to be run.
+runs/fp_followup/fp_eps_sweep_v1_BROKEN.py
+
+# Output of the superseded (non-equilibrated) epsilon sweep. Kept locally
+# for provenance; eps_out_v2/ holds the valid run.
+runs/fp_followup/eps_out/
+runs/fp_followup/eps_run.log
+
+# ---- private working notes ---------------------------------------------
+# Memory.MD lives one level up (FHN_new/) and is not part of this tree.
+# These patterns are belt-and-braces in case a copy ever lands here.
+Memory.MD
+memory.md

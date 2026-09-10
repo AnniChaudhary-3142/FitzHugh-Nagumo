@@ -1,0 +1,15 @@
+a_Hopf = 0.6828   (v*)^2 = 0.9520  (target 0.9520)
+grid: 122 points, step 0.0005 within +-0.02 of a_Hopf, 0.004 outside
+
+forward cycle dies at   a ~ 0.6868  (amp just before = 3.782)
+backward cycle revives at a ~ 0.6828
+hysteresis width = 0.0040  (significant)
+amp^2 vs (a_Hopf - a): slope=5.687, R^2=0.916
+
+first Lyapunov coefficient l1 = +0.073003   (omega0 = 0.240200)
+  l1 > 0 => subcritical, l1 < 0 => supercritical
+  numerical sweeps agree with l1: True
+
+VERDICT: the Hopf bifurcation is SUBCRITICAL
+
+outputs in /Users/anni/Desktop/Tinkering Lab/FHN_new/NewCodes/runs/hopf/alzheimers_hopf
