@@ -26,10 +26,6 @@ on a laptop.
 coupling = K * (A_csr @ v - deg * v) / deg_safe
 ```
 
-An earlier version of this code omitted the `/ deg_safe`. Every number in the paper
-comes from the normalized version, and results from the two are **not** comparable.
-The un-normalized version gives a baseline synchrony near 0.994 against 0.9685 here.
-If you are comparing against older output, check this line first.
 
 ## Layout
 
@@ -100,7 +96,7 @@ Seeds are fixed (`master_seed = 20260529`), so a rerun reproduces the saved numb
 Every directory keeps a `run.log` recording the exact configuration, and a
 `*_summary.json` holding the numbers quoted in the paper.
 
-## What is deliberately not in the repository
+## Please Note: 
 
 Full `(v, w)` trajectories are excluded by `.gitignore`. There are 42 of them at
 roughly 250 MB each, about 10.7 GB in total, which is far past GitHub's 100 MB
