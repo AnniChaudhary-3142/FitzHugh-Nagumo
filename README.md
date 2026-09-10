@@ -96,7 +96,7 @@ Seeds are fixed (`master_seed = 20260529`), so a rerun reproduces the saved numb
 Every directory keeps a `run.log` recording the exact configuration, and a
 `*_summary.json` holding the numbers quoted in the paper.
 
-## What is deliberately not in the repository
+## Please Note: 
 
 Full `(v, w)` trajectories are excluded by `.gitignore`. There are 42 of them at
 roughly 250 MB each, about 10.7 GB in total, which is far past GitHub's 100 MB
