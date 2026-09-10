@@ -15,8 +15,7 @@ pip install -r requirements.txt
 ```
 
 Python 3.13.9 with numpy 2.1.3, scipy 1.15.3, matplotlib 3.10.0, networkx 3.4.2.
-Nothing else is needed. No GPU. The canonical ensemble takes roughly half an hour
-on a laptop.
+Nothing else is needed. 
 
 ## Important: coupling normalization
 
