@@ -26,10 +26,6 @@ on a laptop.
 coupling = K * (A_csr @ v - deg * v) / deg_safe
 ```
 
-An earlier version of this code omitted the `/ deg_safe`. Every number in the paper
-comes from the normalized version, and results from the two are **not** comparable.
-The un-normalized version gives a baseline synchrony near 0.994 against 0.9685 here.
-If you are comparing against older output, check this line first.
 
 ## Layout
 
