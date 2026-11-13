@@ -1,0 +1,34 @@
+[
+  {
+    "label": "k4",
+    "N": 1000,
+    "k_nbr": 4,
+    "R_global_drop_pct": 58.494257295002036,
+    "R_component_change_pct": 3.35099259808207,
+    "wall_seconds": 3829.9
+  },
+  {
+    "label": "k6",
+    "N": 1000,
+    "k_nbr": 6,
+    "R_global_drop_pct": 53.144479772953915,
+    "R_component_change_pct": 1.54404672048698,
+    "wall_seconds": 2605.0
+  },
+  {
+    "label": "k8",
+    "N": 1000,
+    "k_nbr": 8,
+    "R_global_drop_pct": 47.51229607035109,
+    "R_component_change_pct": 0.3509323527430608,
+    "wall_seconds": 1949.9
+  },
+  {
+    "label": "k12",
+    "N": 1000,
+    "k_nbr": 12,
+    "R_global_drop_pct": 37.431681126721486,
+    "R_component_change_pct": -1.2738095210659939,
+    "wall_seconds": 5806.2
+  }
+]

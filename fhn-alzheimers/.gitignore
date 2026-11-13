@@ -20,6 +20,9 @@ venv/
 # ---- scratch figure previews --------------------------------------------
 replot_preview/
 
+# Derived-quantity cache written by revision/fhndata.py. Regenerated on demand.
+revision/cache/
+
 # ---- os -----------------------------------------------------------------
 .DS_Store
 Thumbs.db

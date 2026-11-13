@@ -44,6 +44,13 @@ build_static_figures.py   rebuild the three figures that need no trajectories
 analysis_scaling.py       Fokker-Planck ratio table, power-law fit, and the
                           component size-dependence check, all read from runs/
 
+revision/                 campaigns added during revision, plus the plotting code
+                          for every figure in the revised paper. Node-based
+                          ablation, network-size and average-degree sweeps, the
+                          centrality-distribution and percolation scaling checks,
+                          and make_figures.py. Imports the code above without
+                          modifying it. See revision/README.md.
+
 figures_normalized/       figures used in the paper
 runs/                     saved output, one directory per campaign
 ```
@@ -67,14 +74,25 @@ additionally needs the stored trajectories, so both want the runs below done fir
 | Noise sweep | `python fhn_robustness.py --sigma 0.02 --networks 5` (also 0.10) | per-sigma directory |
 | Sub-Hopf control | `python fhn_robustness.py --a 1.05 --networks 5` | `a105`-style directory |
 | Random-ablation control | `python fhn_robustness.py --ablation random --networks 10` | random-ablation directory |
-| Percolation sweep | `python fhn_percolation.py --n-fracs 30 --networks 2` | `alzheimers_percolation/` |
+| Percolation sweep | `python fhn_percolation.py --n-fracs 30 --networks 20` | `alzheimers_percolation/` |
 | Timestep convergence | `python fhn_dt_convergence.py` | `alzheimers_dt_convergence/` |
 | Window convergence | `python fhn_window_convergence.py --T 6400 --networks 3 --trials 3` | `alzheimers_window_convergence_T6400/` |
 | Hopf criticality | `python fhn_hopf_criticality.py` | `alzheimers_hopf/` |
 | First Lyapunov coefficient | `python fhn_lyapunov.py` | prints `l1` and the verdict |
 | Scaling and size-dependence analyses | `python analysis_scaling.py` | prints to stdout, reads `runs/` only |
+| Network-size sweep | `python revision/sim01_size_sweep.py` | `revision/runs/sim01_size_sweep/` |
+| Average-degree sweep | `python revision/sim02_degree_sweep.py` | `revision/runs/sim02_degree_sweep/` |
+| Betweenness distribution | `python revision/sim03_centrality_stats.py` | `revision/runs/sim03_centrality_stats/` |
+| Critical fraction vs N and degree | `python revision/sim04_percolation_scaling.py` | `revision/runs/sim04_percolation_scaling/` |
+| Node against edge attack | `python revision/sim05_node_ablation.py` | `revision/runs/sim05_node_ablation/` |
+| Revision tables | `python revision/analyse.py` | prints to stdout, reads `revision/runs/` only |
 
 Seeds are fixed (`master_seed = 20260529`), so a rerun reproduces the saved numbers.
+
+The percolation sweep is listed at 20 realisations rather than the 2 used for the
+originally submitted paper. The critical fraction is sensitive to the number of
+realisations, with a standard deviation of 0.043 across networks, and the revised
+paper reports the 20-realisation value.
 
 ## What is in `runs/`
 

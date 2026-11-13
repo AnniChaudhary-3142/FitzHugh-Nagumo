@@ -1,0 +1,62 @@
+[
+  {
+    "protocol": "edge_targeted",
+    "normalisation": "n/a",
+    "R_global_drop_pct": 47.51229607035109,
+    "R_component_change_pct": 0.3509323527430608,
+    "edge_fraction_final": 0.8499999999999999,
+    "R_global_final": 0.5083624615109911,
+    "R_component_final": 0.9719351994162313,
+    "wall_seconds": 1979.1
+  },
+  {
+    "protocol": "edge_random",
+    "normalisation": "n/a",
+    "R_global_drop_pct": 42.251029316507285,
+    "R_component_change_pct": 0.02674841756247215,
+    "edge_fraction_final": 0.8499999999999999,
+    "R_global_final": 0.5593197394524092,
+    "R_component_final": 0.9687953603504642,
+    "wall_seconds": 1745.9
+  },
+  {
+    "protocol": "node_targeted_excise",
+    "normalisation": "excise",
+    "R_global_drop_pct": 16.643484886403805,
+    "R_component_change_pct": -0.8186087982879009,
+    "edge_fraction_final": 0.8303750000000001,
+    "R_global_final": 0.8073381008040095,
+    "R_component_final": 0.9606077689160631,
+    "wall_seconds": 1183.6
+  },
+  {
+    "protocol": "node_targeted_isolate",
+    "normalisation": "isolate",
+    "R_global_drop_pct": 50.28640028383398,
+    "R_component_change_pct": -0.8952082212147161,
+    "edge_fraction_final": 0.8303750000000001,
+    "R_global_final": 0.48149425541943913,
+    "R_component_final": 0.9598658757053867,
+    "wall_seconds": 1373.3
+  },
+  {
+    "protocol": "node_random_excise",
+    "normalisation": "excise",
+    "R_global_drop_pct": 8.949062319446721,
+    "R_component_change_pct": -3.5211850007383583,
+    "edge_fraction_final": 0.8405250000000001,
+    "R_global_final": 0.8818613758416605,
+    "R_component_final": 0.9344323375704624,
+    "wall_seconds": 952.3
+  },
+  {
+    "protocol": "node_random_isolate",
+    "normalisation": "isolate",
+    "R_global_drop_pct": 48.27916802801164,
+    "R_component_change_pct": -3.275731020313022,
+    "edge_fraction_final": 0.8405250000000001,
+    "R_global_final": 0.5009350282862001,
+    "R_component_final": 0.9368096484515774,
+    "wall_seconds": 1137.5
+  }
+]

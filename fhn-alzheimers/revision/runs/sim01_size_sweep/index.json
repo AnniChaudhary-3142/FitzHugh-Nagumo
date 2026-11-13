@@ -1,0 +1,42 @@
+[
+  {
+    "label": "N250",
+    "N": 250,
+    "k_nbr": 8,
+    "R_global_drop_pct": 48.16071793079022,
+    "R_component_change_pct": 0.1268128860963058,
+    "wall_seconds": 761.0
+  },
+  {
+    "label": "N500",
+    "N": 500,
+    "k_nbr": 8,
+    "R_global_drop_pct": 48.09380019984064,
+    "R_component_change_pct": -0.014924732388554851,
+    "wall_seconds": 1158.8
+  },
+  {
+    "label": "N1000",
+    "N": 1000,
+    "k_nbr": 8,
+    "R_global_drop_pct": 47.51229607035109,
+    "R_component_change_pct": 0.3509323527430608,
+    "wall_seconds": 1925.5
+  },
+  {
+    "label": "N2000",
+    "N": 2000,
+    "k_nbr": 8,
+    "R_global_drop_pct": 47.82771201993581,
+    "R_component_change_pct": 0.37400635530746573,
+    "wall_seconds": 3504.9
+  },
+  {
+    "label": "N4000",
+    "N": 4000,
+    "k_nbr": 8,
+    "R_global_drop_pct": 47.929663237181806,
+    "R_component_change_pct": 0.27224376335091005,
+    "wall_seconds": 13472.5
+  }
+]
